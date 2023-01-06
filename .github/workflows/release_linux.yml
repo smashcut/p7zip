@@ -2,6 +2,7 @@ name: p7zip-release
 
 on:
   release:
+    types: [created]
     tags:
       - "*"
 
